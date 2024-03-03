@@ -1,0 +1,8 @@
+
+/* luckiest guy */
+@font-face {
+    font-display: swap;
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    src: url('../assets/fonts/luckiest-guy.woff2') format('woff2');
+}

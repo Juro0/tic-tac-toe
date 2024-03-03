@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+    
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>tic tac toe &bull; juri gemignani</title>
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <link rel="stylesheet" href="style/fonts.css">
+        <link rel="stylesheet" href="style/style-lg.css">
+        <link rel="stylesheet" href="style/style-sm.css" media="screen and (max-width: 768px)">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    </head>
+
+    <body>
+        
+        <p id="title">tic<br>tac<br>toe</p>
+
+        <div class="points-container">
+
+            <!-- X points -->
+            <div class="points active" id="x-points-container">
+
+                <i class="points-icon">x</i>
+                
+                <p class="points-value" id="x-points">0</p>
+            
+            </div>
+
+            <p class="result"></p>
+
+            <!-- O points -->
+            <div class="points" id="o-points-container">
+
+                <i class="points-icon">o</i>
+                
+                <p class="points-value" id="o-points">0</p>
+            
+            </div>
+
+        </div>
+
+        <div class="tris-grid">
+
+            <div id="cell_1" class="tris-cell"></div>
+            <div id="cell_2" class="tris-cell" style="--right: 2px; --left: 2px;"></div>
+            <div id="cell_3" class="tris-cell"></div>
+
+            <div id="cell_4" class="tris-cell" style="--top: 2px; --bottom: 2px;"></div>
+            <div id="cell_5" class="tris-cell" style="--top: 2px; --right: 2px; --bottom: 2px; --left: 2px;"></div>
+            <div id="cell_6" class="tris-cell" style="--top: 2px; --bottom: 2px;"></div>
+            
+            <div id="cell_7" class="tris-cell"></div>
+            <div id="cell_8" class="tris-cell" style="--right: 2px; --left: 2px;"></div>
+            <div id="cell_9" class="tris-cell"></div>
+
+        </div>
+
+        <div class="bottom">
+
+            <i class="btn-clear uil uil-redo" title="clear the board"></i>
+
+            <i class="btn-reset uil uil-multiply" title="reset all the game"></i>
+
+        </div>
+        
+        <script src="script/tictactoe.js"></script>
+        <script src="script/app.js"></script>
+        
+    </body>
+
+</html>

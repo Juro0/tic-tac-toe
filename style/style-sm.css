@@ -1,0 +1,26 @@
+
+#title {
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.points-container {
+    margin-top: 10px;
+    width: 90%;
+    flex-direction: column;
+}
+
+.points {
+    margin: 15px 0;
+}
+
+.points.active {
+    transform: none;
+    box-shadow: none;
+    transition: var(--transition);
+    outline: .7px solid var(--clr-secondary);
+}
+
+.tris-grid {
+    margin: 15px 0 45px;
+}
